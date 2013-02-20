@@ -1,0 +1,210 @@
+@font-face
+{
+font-family: Trebuchet MS;
+src: url('trebuchet_ms.ttf');
+}
+
+html, body, div, ul{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 12px;
+	font-family:Verdana, sans-serif;
+}
+.box {
+	padding: 6px;
+	margin-bottom: 10px;
+	background-color: #F6F6F6;
+	color: #505050;
+	line-height: 1.5em;
+	border: 1px solid #E4E4E4;
+}
+#main-menu {
+	position: absolute;
+	margin-top: -23px;
+	left: 6px;
+	margin-right: -500px;
+}
+#main-menu li {
+	float: left;
+	list-style-type: none;
+	margin: 0px 2px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	white-space: nowrap;
+}
+#main-menu li a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	margin: 0;
+	padding: 4px 10px 4px 10px;
+}
+.root a {
+	font-family: "Trebuchet MS", Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	margin: 0 0 10px 0;
+}
+li.root {
+	list-style-type: none;
+	margin-bottom: 1em;
+}
+.tabular p {
+	margin: 0;
+	padding: 3px 0 3px 0;
+	padding-left: 180px;
+	height: 1%;
+	clear: left;
+}
+.tabular label {
+	font-weight: bold;
+	float: left;
+	text-align: right;
+	margin-left: -180px;
+	width: 175px;
+}
+textarea.wiki-edit {
+	width: 99%;
+}
+textarea {
+	-webkit-appearance: textarea;
+	background-color: white;
+	border: 1px solid;
+	border-image: initial;
+	-webkit-rtl-ordering: logical;
+	-webkit-user-select: text;
+	-webkit-box-orient: vertical;
+	resize: auto;
+	cursor: auto;
+	padding: 2px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+a, a:link, a:visited {
+    color: #2A5685;
+    text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.contextual {
+    float: right;
+    font-size: 0.9em;
+    line-height: 1.4em;
+    margin-top: 5px;
+    padding-left: 10px;
+    white-space: nowrap;
+}
+#content{
+	padding:6px 10px 10px;
+	min-height: 600px;
+	width: auto;
+    background-color: #FFFFFF;
+    border-right: 1px solid #DDDDDD;
+    margin: 0;
+    width: 75%;
+    z-index: 10;
+}
+#sidebar {
+    float: right;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 22%;
+    z-index: 9;
+}
+h1, h2, h3, h4 {
+  font-family:'Trebuchet MS', Verdana, sans-serif;
+}
+h2, .wiki h1 {
+  border-bottom-color:#BBBBBB;
+  border-bottom-style:solid;
+  border-bottom-width:1px;
+  color:#444444;
+  font-size:20px;
+  margin:0 0 10px;
+  padding:2px 10px 1px 0;
+}
+
+header{
+	width: 100%;
+	height: 84px;
+	background-color: #507AAA;
+	color: white;
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+label {
+  font-weight:bold;
+}
+#topbar{
+	height: 19px;
+	background-color: #2C4056;
+	color: white;
+
+}
+#topbar a{
+	font-weight: bold;
+	color: white;
+}
+#topbar .right{
+	font-size: 11px;
+	margin-top: 2px;
+	width: 199px;
+}
+input, select {
+	margin-bottom: 1px;
+	margin-top: 1px;
+	vertical-align: middle;
+}
+#mainmenu{
+	list-style-type: none;
+	position: relative;
+	top: 2px;
+	font-size: 10px;
+	color: white;
+}
+#mainmenu li{
+	display: inline;
+	font-weight: bold;
+	margin-left: 8px;
+}
+#mainmenu li a{
+	color: white;
+}	
+#headerbar h1{
+	margin-left: 5px;
+	margin-top: 0px;
+	font-size:24px;
+}
+#main-menu li a.selected {
+    background: none repeat scroll 0 0 #FFFFFF;
+    color: #555555;
+}
+#loginbox{
+	width: 430px;
+	background-color: #FFEBC1;
+	border:2px solid #FDBF3B;
+	padding:1em;
+	margin: 0 auto;
+	margin-top: 5em;
+}
+#loginbox input[type="text"], input[type="password"]{
+	width: 300px;
+}
+#loginbox table td {
+	padding: 6px;
+}
+.splitcontentleft {
+    float: left;
+    width: 49%;
+}
+.splitcontentright {
+    float: right;
+    width: 49%;
+}
